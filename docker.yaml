@@ -15,7 +15,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: 7845100317
-        password: Selviguna
+        password: dckr_pat_q9UoamLLHTpv8cvPH4uvi0WNoMs
     - name: Push image
       command: docker push 7845100317/petstore:latest
     - name: Run container
